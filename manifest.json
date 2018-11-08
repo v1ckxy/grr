@@ -3,7 +3,7 @@
   "name": "google redirect rewrite remover",
   "description": "remove google tracking urls plz",
   "author": "Me",
-  "version": "0.6",
+  "version": "0.7",
   "content_scripts": [
     {
         "matches": ["*://*/**"],
