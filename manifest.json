@@ -3,11 +3,10 @@
   "name": "google redirect rewrite remover",
   "description": "remove google tracking urls plz",
   "author": "Me",
-  "license": "MPL 2.0",
   "version": "0.6",
   "content_scripts": [
     {
-        "matches": ["*://*/search*"],
+        "matches": ["*://*/**"],
         "js": ["script.js"]
     }
   ]
